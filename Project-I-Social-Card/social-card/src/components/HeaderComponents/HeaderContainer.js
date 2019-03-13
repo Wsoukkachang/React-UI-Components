@@ -1,15 +1,14 @@
 import React from 'react';
 import './Header.css';
 import ImageThumbnail from "./ImageThumbnail";
+import HeaderContent from "./HeaderContent";
 
 const HeaderContainer = () => {
     return (
-      <nav className="HeaderContainer"> 
+      <section className="HeaderContainer"> 
       <ImageThumbnail />
-        {/* <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">More</a> */}
-      </nav>
+      <HeaderContent />
+      </section>
     );
   
   };

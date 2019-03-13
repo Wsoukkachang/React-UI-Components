@@ -1,14 +1,19 @@
 import React from 'react';
 import './Header.css';
 
+// let time = new Date();
+// let date = time.getDate(); // working timestamp
+// let month = time.getMonth();
 
-const header = () => {
+const HeaderTitle = () => {
     return (
-      <nav className="NavBar"> 
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">More</a>
-      </nav>
+      <section className="HeaderTitle">
+      <h1>Lambda School</h1>
+        <p>@LambdaSchool</p>
+        <p>12 March</p>
+      </section>
     );
   
   };
+
+  export default HeaderTitle;

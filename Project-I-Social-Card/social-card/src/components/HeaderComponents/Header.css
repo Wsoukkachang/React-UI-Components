@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+.HeaderContainer{
+    display: flex;
+    flex-flow: row;
+}
+
+.ImageThumbnail{
+    width: 10%;
+    height: 10%;
+    margin-top: 3%;
+}
+
+.HeaderTitle{
+    display: flex;
+    flex-flow: row;
+    margin: 1.5% 0;
+    align-content: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.HeaderContent{
+    width: 100%;
+    margin: 0 auto;
+}
