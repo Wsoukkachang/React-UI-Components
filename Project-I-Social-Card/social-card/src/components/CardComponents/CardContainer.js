@@ -6,7 +6,6 @@ const CardContainer = () => {
     return (
       <section className="CardContainer"> 
       <CardContent />
-
       </section>
     );
   
