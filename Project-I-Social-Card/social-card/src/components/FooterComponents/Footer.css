@@ -3,10 +3,21 @@
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10%;
+    margin: 3% 0% 1% 10%;
+    width: 50%;
     /* border: 1px solid black; */
 }
 
 img {
-    width: 8%;
+    height: 20px;
+    /* width: 8%; */
+}
+
+button {
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    padding: 0;
+    height: 20px;
+    background-color: white;
 }

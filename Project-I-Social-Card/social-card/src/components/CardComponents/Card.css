@@ -6,16 +6,26 @@
 }
 
 .CardBanner {
-    height: 50%;
-    width: 90%;
+    height: 40%;
+    width: 100%;
 }
 
 .CardContent{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 93%;
     margin: 0 auto;
-    /* border: 1px solid black; */
-    margin-left: 10%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-left: 9%; /* change for left margin */
+    height: 25%;
+}
+
+h1 {
+    margin: 1% 2%;
+}
+
+p {
+    margin: 1% 2%;
 }
 
