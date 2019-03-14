@@ -2,7 +2,7 @@
 .CardContainer{
     display: flex;
     flex-flow: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .CardBanner {
@@ -15,7 +15,7 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 10%;
 }
 
