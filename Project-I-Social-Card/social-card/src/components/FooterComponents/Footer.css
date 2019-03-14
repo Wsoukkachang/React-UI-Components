@@ -1,5 +1,14 @@
 .Footer {
     display: flex;
     flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
     border: 1px solid black;
+
+
+}
+
+img {
+    width: 8%;
 }

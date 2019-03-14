@@ -1,10 +1,19 @@
 import React from 'react';
 import './Footer.css';
 
+import commenticon from "./img/Comment-Icon.png"
+import loveicon from "./img/Love-Icon.png"
+import messageicon from "./img/Message-Icon.png"
+import shareicon from "./img/Share-Icon.png"
+
+
 const Footer= () => {
     return (
       <section className="Footer">
-      <h1>Footer</h1>
+      <img src={commenticon} className="CommentIcon"/>
+      <img src={loveicon} className="LoveIcon"/>
+      <img src={messageicon} className="MessageIcon"/>
+      <img src={shareicon} className="ShareIcon"/>
       </section>
     );
   
