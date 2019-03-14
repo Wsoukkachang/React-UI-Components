@@ -1,1 +1,19 @@
 /* All styles for your Card Components live here */
+.CardContainer{
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+}
+
+.CardBanner {
+    height: 50%;
+    width: 90%;
+}
+
+.CardContent{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-left: 10%;
+}
+

@@ -10,7 +10,8 @@ const HeaderTitle = () => {
       <section className="HeaderTitle">
       <h1>Lambda School</h1>
         <p>@LambdaSchool</p>
-        <p>12 March</p>
+        <p>·</p>
+        <p>13 Mar</p>
       </section>
     );
   
