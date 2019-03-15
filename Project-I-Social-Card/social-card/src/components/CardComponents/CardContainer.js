@@ -1,22 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react'; // imported Component to make class
 import './Card.css';
 import CardContent from './CardContent';
 
-let cardContainer = document.querySelector('.CardContainer');
 
-//working on click event for whole CardContainer class
+// made a class ---to be able to use the click function when div is clicked
+class CardContainer extends Component {
+    // cardClick function
+    cardClick = () => {
+        let cardStuff= document.querySelector(".cardStuff");
+        
+        cardStuff.addEventListener("click", () => {
+            window.open("https://www.reactjs.org"); 
+        });
+    }
 
-// cardContainer.addEventListener('click', () => {
-//     window.open('https://www.reactjs.org'); 
-// });
-
-const CardContainer = () => {
-    return (
-      <section className="CardContainer"> 
-      <CardContent />
-      </section>
-    );
-  
-  };
+    // used to render
+    render () {
+        return (
+            <div className= "cardStuff" onClick={this.cardClick}>
+            <section className="CardContainer"> 
+            <CardContent />
+            </section>
+            </div>
+        );
+    };
+};
 
   export default CardContainer;

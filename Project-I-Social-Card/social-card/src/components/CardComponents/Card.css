@@ -2,6 +2,7 @@
 .CardContainer{
     display: flex;
     flex-flow: column;
+    cursor: pointer;
     /* border: 1px solid black; */
 }
 
