@@ -38,7 +38,7 @@ class App extends Component {
 
     if (result) {
       result = math.eval(result);
-      result = math.format(result, { precision: 12 });
+      result = math.format(result, { precision: 16 });
       this.setState({
         operations: [result],
       })
@@ -109,6 +109,7 @@ class App extends Component {
     }
   }
 
+  // needed to use key press //
   componentWillMount = (e) => {
     document.addEventListener("keydown", this.onKeyPress.bind(this));
   }
