@@ -5,7 +5,7 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
 const numbers = [
-  {text: 7, style: {backgroundColor: "blue", color: "red"}},
+  {text: 7},
   {text: 8},
   {text: 9},
   {text: 4},
@@ -28,25 +28,25 @@ const App = () => {
   return (
     <div className="container">
     <div className="calc-display"><CalculatorDisplay display={0} /></div>
-    <div className="clear-container"><ActionButton text={"clear"} buttonStyle={'clear-button'}/></div>
+    <div className="clear-container"><ActionButton buttonStyle={'clear-button'} text={'clear'}/></div>
     
     <div className="symbols-container">
       {symbols.map((symbol) => (
-      <NumberButton key={symbol.text} text={symbol.text} buttonStyle={'symbol-button'}/>
+      <NumberButton buttonStyle={'symbol-button'} text={symbol.text} />
       ))
       }
     </div>
 
     <div className="numbers-container">
-      {numbers.map((numbers) => (
-      <NumberButton text={numbers.text}/>
+      {numbers.map((number) => (
+      <NumberButton buttonStyle={'number-button'} text={number.text}/>
       ))
       }
     </div>
     
-    <div className="zero-container"><ActionButton text={0}/></div>
-     </div>
-  );
+    <div className="zero-container"><ActionButton buttonStyle={'zero-button'} text={0}/></div>
+    </div> // !container//
+      );
 };
 
 export default App;

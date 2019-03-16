@@ -8,32 +8,35 @@
     grid-gap: 2px;
 }
 
+/* calculator display */
 .calc-display{
     grid-column: 1/5;
     background-color: #222222;
-    color: #fff;
+    color: #FFFFFF;
     text-align: right;
     padding-right: 9px;
     padding-top: 15px;
     font-size: 68px;
-    font-weight: 100;
 }
 
 .clear-container {
     grid-column: 1/4;
 }
 
+/* need to contain symbols */
 .symbols-container {
     display: grid;
     grid-auto-rows: 90px;
     grid-gap: 2px;
 }
 
+/* numbers button */
 .numbers {
     grid-column: 1/4;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* need to contain numbers */
 .numbers-container {
     grid-column: 1/4;
     display: grid;
@@ -42,18 +45,21 @@
     grid-gap: 2px;
 }
 
+/* zero button */
 .zero-container {
     grid-row: 6/7;
     grid-column: 1/4;
 }
 
+/* symbols button */
 .symbol-button {
-    background-color: #a0001e;
-    color: #fff;
-    font-weight: 100;
+    background-color: #A0001E;
+    color: #FFFFFF;
     font-size: 60px;
+    font-weight: 100;
 }
 
+/* clear button */
 .clear-button {
     font-weight: 100;
 }
