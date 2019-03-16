@@ -137,7 +137,8 @@ class App extends Component {
         }
       </div>
       
-      <div className="zero-container"><ActionButton buttonStyle={'zero-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={0} value={0} /></div>
+      <div className="zero-container">
+      <ActionButton buttonStyle={'zero-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={0} value={0} /></div>
       </div> // !container//
         );
   }
