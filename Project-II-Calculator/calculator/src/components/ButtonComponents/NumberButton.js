@@ -1,7 +1,7 @@
 import React, {Component} from 'react'; // imported Component to make class
 import './Button.css';
 
-
+//re-factor to class//
 class NumberButton extends Component {
     render() {
         return (
