@@ -118,7 +118,7 @@ class App extends Component {
 
     return (
       <div className="container">
-      <div className="calc-display"><CalculatorDisplay data={this.state.operations}/></div>
+      <div className="calc-display"><CalculatorDisplay data={this.state.operations}/>0</div>
       
       <div className="clear-container"><ActionButton buttonStyle={'clear-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={'clear'} value={'clear'}/></div>
       
