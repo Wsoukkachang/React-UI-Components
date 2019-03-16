@@ -1,5 +1,5 @@
 import React, {Component} from 'react'; // imported Component to make class //
-import update from 'immutability-helper'; // imported for states/ updates //
+import update from 'immutability-helper'; // imported for update() //
 import math from 'mathjs'; // imported for math functions //
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
@@ -38,9 +38,7 @@ class App extends Component {
 
     if (result) {
       result = math.eval(result);
-
-      result = math.format(result, { precision: 14 });
-
+      result = math.format(result, { precision: 12 });
       this.setState({
         operations: [result],
       })

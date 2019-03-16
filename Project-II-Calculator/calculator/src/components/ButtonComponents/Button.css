@@ -1,5 +1,4 @@
 button {
-    cursor: pointer;
     background-color: #fff;
     border: 0px;
     width: 100%;
@@ -7,3 +6,11 @@ button {
     font-size: 45px;
     font-weight: 500;
 } 
+button:hover {
+    background: lightgrey;
+    cursor: pointer;
+}
+  
+button:active {
+    background: lightgrey;
+}

@@ -5,7 +5,9 @@ import './Button.css';
 class NumberButton extends Component {
     render() {
         return (
-        <button className={this.props.buttonStyle} onClick={this.props.onClick} value={this.props.value}>{this.props.text}</button>
+        <button className={this.props.buttonStyle} onClick={this.props.onClick} value={this.props.value}>
+        {this.props.text}
+        </button>
         )
     }
 }
