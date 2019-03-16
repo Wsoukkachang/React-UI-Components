@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react'; // imported Component to make class
 import './Display.css';
 
-const CalculatorDisplay = (props) => {
-    return (
-        <div className="calc-display">
-            {props.display}
-        </div>
-    )
-}
+class CalculatorDisplay extends Component {
+    render() {
+        const string = this.props.data.join('');
+
+        return (
+            <div className="calc-display">
+                {string}
+            </div>
+            )
+        }
+    }
 
 export default CalculatorDisplay;
