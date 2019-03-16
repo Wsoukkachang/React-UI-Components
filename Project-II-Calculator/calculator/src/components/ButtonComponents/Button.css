@@ -7,7 +7,7 @@ button {
     font-weight: 500;
 } 
 button:hover {
-    background: lightgrey;
+    background: grey;
     cursor: pointer;
 }
   

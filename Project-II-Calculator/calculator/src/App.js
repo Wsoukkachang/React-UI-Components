@@ -119,9 +119,12 @@ class App extends Component {
 
     return (
       <div className="container">
+      
       <div className="calc-display"><CalculatorDisplay data={this.state.operations}/>0</div>
       
-      <div className="clear-container"><ActionButton buttonStyle={'clear-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={'clear'} value={'clear'}/></div>
+      <div className="clear-container">
+      <ActionButton buttonStyle={'clear-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={'clear'} value={'clear'}/>
+      </div>
       
       <div className="symbols-container">
         {symbols.map((symbol) => (
@@ -138,7 +141,9 @@ class App extends Component {
       </div>
       
       <div className="zero-container">
-      <ActionButton buttonStyle={'zero-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={0} value={0} /></div>
+      <ActionButton buttonStyle={'zero-button'} onClick={this.handleClick} onKeyPress={this.onKeyPress} text={0} value={0} />
+      </div>
+
       </div> // !container//
         );
   }

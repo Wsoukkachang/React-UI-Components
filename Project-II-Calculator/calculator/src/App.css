@@ -33,7 +33,7 @@
 }
 
 /* numbers button */
-.numbers {
+.number {
     grid-column: 1/4;
     grid-template-columns: 1fr 1fr 1fr;
 }
